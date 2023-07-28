@@ -1,0 +1,35 @@
+.box {
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    background: black;
+    border: 60px solid green; 
+  }
+  
+  .box h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    color : red !important;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .box p {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin: 5px ;
+    color: greenyellow;
+  }
+  
+  /* Add styles for the box */
+  .boxContainer {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    background:rgb(21, 143, 135);
+  }
+  
+  
